@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu's.com</title>
+
+    <!-- For Page Styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- For Responsiveness -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- For Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- For Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/menu.jpeg" alt="MyMart">
+        </div>
+        <ul>
+            <li><a class="text-yellow-300" href="#home">Home</a></li>
+            <li><a href="#service-container">Services</a></li>
+            <li><a href="#client-section">Clients</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- For Home Section -->
+    <section id="home">
+        <h1 class="h-primary">Welcome to Menu's.com</h1>
+        <p>One cannot think well, love well, sleep well, if one has not dined well.</p>
+        <p>Food is symbolic of love when words are inadequate.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <!-- For Our Service Section -->
+    <section id="service-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="images/pngwing.com(1).png" alt="">
+                <button id="chinese-ordering-btn" class="btn">Chinese Ordering</button>
+                <p class="center">
+                    Indulge in a variety of authentic Chinese dishes, from dim sum and fried rice to Peking duck and sweet
+                    & sour chicken. Enjoy the bold flavors and the perfect balance of spice and taste.
+                </p>
+            </div>
+            <div class="box">
+                <img src="images/pizza.png" alt="">
+                <button id="chicken-ordering-btn" class="btn">Chicken Ordering</button>
+                <p class="center">
+                    Savor our selection of mouthwatering chicken recipes, including crispy fried chicken, tender chicken
+                    wings, and delicious grilled options. Perfect for any occasion or craving!
+                </p>
+            </div>
+            <div class="box">
+                <img src="images/pngwing.com(2).png" alt="">
+                <button id="pizza-ordering-btn" class="btn">Pizza Ordering</button>
+                <p class="center">
+                    Treat yourself to freshly baked pizzas with a variety of toppings, from classic Margherita to loaded
+                    pepperoni and veggie specials. Made with love and the finest ingredients!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Our Client Section -->
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="client">
+            <div class="class-item">
+                <img src="images/c1.png" alt="Our Client">
+            </div>
+            <div class="class-item">
+                <img src="images/c2.png" alt="Our Client">
+            </div>
+            <div class="class-item">
+                <img src="images/c3.png" alt="Our Client">
+            </div>
+            <div class="class-item">
+                <img src="images/c4.png" alt="Our Client">
+            </div>
+        </div>
+    </section>
+
+    <!-- For Contact Us Section -->
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div class="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">email:</label>
+                    <input type="text" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Phone No.:</label>
+                    <input type="text" name="name" id="Phone" placeholder="Enter your phone no.">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="center">
+            CopyRight &copy; MyCart.com All right Reserved!
+        </div>
+    </footer>
+
+    <!-- JavaScript to Open Menu Pages -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Event listener for Chinese Menu button
+            document.getElementById('chinese-ordering-btn').addEventListener('click', function () {
+                window.location.href = "Menu page/menu.html"; // Update with the correct path
+            });
+
+            // Event listener for Chicken Menu button
+            document.getElementById('chicken-ordering-btn').addEventListener('click', function () {
+                window.location.href = "Menu page/menu.html"; // Update with the correct path
+            });
+
+            // Event listener for Pizza Menu button
+            document.getElementById('pizza-ordering-btn').addEventListener('click', function () {
+                window.location.href = "Menu page/menu.html"; // Update with the correct path
+            });
+        });
+    </script>
+
+</body>
+
+</html>

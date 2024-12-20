@@ -1,0 +1,140 @@
+/* Responsive Design */
+
+@media screen and (max-width:1220px) {
+    #home {
+        padding: 0px;
+    }
+
+    #home p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #home {
+        padding: 0px;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    #home button {
+        font-size: 14px;
+    }
+
+    .h-primary {
+        font-size: 2rem;
+    }
+
+    .h-secondary {
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    #services {
+        flex-direction: column;
+    }
+
+    .contact-box form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    #home {
+        height: 250px;
+    }
+
+    ul {
+        justify-content: center;
+    }
+
+    #home p {
+        font-size: 0.8rem;
+    }
+
+    #home button {
+        font-size: 10px;
+    }
+
+    .h-primary {
+        font-size: 1.7rem;
+    }
+
+    .h-secondary {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .class-item {
+        padding: 20px;
+    }
+
+    #client {
+        flex-wrap: wrap
+    }
+}
+
+@media screen and (max-width:560px) {
+    #client-section::before {
+        height: 365px;
+    }
+}
+
+@media screen and (max-width:505px) {
+    #home p {
+        font-size: 0.6rem;
+    }
+
+    #home button {
+        font-size: 12px;
+    }
+
+    .h-primary {
+        font-size: 1.5rem;
+    }
+
+    .h-secondary {
+        font-size: 0.8rem;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    #home p {
+        font-size: 0.5rem;
+    }
+
+    #home button {
+        font-size: 10px;
+    }
+
+    .h-primary {
+        font-size: 1.2rem;
+    }
+
+    .h-secondary {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+
+    #services .box img {
+        height: 100px;
+    }
+
+    #services .box p {
+        font-size: 0.8rem;
+    }
+}
